@@ -4,8 +4,7 @@ Fotoğraftan 3D Obje Üretici (Hunyuan3D-2 tabanlı)
 ===================================================
 
 *** BU SCRIPT SADECE Hunyuan3D-2 İÇİNDİR ***
-TripoSR kullanacaksanız bunun yerine 'photo_to_3d.py' dosyasını indirin/kullanın,
-bu iki script birbirinin yerine geçmez (farklı model API'leri kullanıyorlar).
+
 
 Klasör yapısı:
     input/<KisiAdi>/foto.jpg   ->   output/<KisiAdi>/model.glb
@@ -18,14 +17,11 @@ Kurallar:
 - Model ağırlıkları Hugging Face üzerinden ilk çalıştırmada otomatik indirilip
   yerel cache'e kaydedilir, sonraki çalıştırmalarda tekrar indirilmez.
 
-LİSANS NOTU: Hunyuan3D-2, Tencent Hunyuan Non-Commercial License altındadır.
-Ticari kullanım için repo'daki lisans metnini kontrol edin.
-
 Kurulum (bir kere yapılır):
-    bash setup_hunyuan.sh
+    !bash setup_hunyuan.sh
 
 Çalıştırma:
-    python photo_to_3d_hunyuan.py
+    !python photo_to_3d_hunyuan.py
 """
 
 import os
